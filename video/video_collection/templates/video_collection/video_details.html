@@ -1,0 +1,15 @@
+{% extends 'video_collection/base.html' %}
+
+{% block content %}
+
+<!-- Show information -->
+<h3>Name</h3>
+<p>{{ video.name|default:"No Name" }}</p>
+<h3>URL</h3>
+<p>{{ video.url|default:"No URL" }}</p>
+<h3>Notes</h3>
+<p>{{ video.notes|default:"No Notes" }}</p>
+<h3>ID</h3>
+<p>{{ video.video_id|default:"No ID" }}</p>
+
+{% endblock %}

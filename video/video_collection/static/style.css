@@ -1,0 +1,13 @@
+body {
+    background-color: blue;
+    font-size: large;
+}
+
+.navigation {
+    margin: 10px;
+}
+
+.navigation > a{
+    color: red;
+    padding-right: 30px;
+}
